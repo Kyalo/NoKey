@@ -15,7 +15,7 @@ view =
     column [ spacing (Styles.paddingScale 3) ]
         [ Elements.h2 "Welcome"
         , Elements.p """
-            NoKey is a distributed password manager. In contrast to other password managers, it doesn't use
+            Siri Pass is a distributed password manager. In contrast to other password managers, it doesn't use
             a master password to secure your passwords.
             """
         , Elements.p """

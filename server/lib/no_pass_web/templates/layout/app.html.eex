@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="distributed password manager without a master password">
-    <meta name="author" content="Florian Zinggeler">
+    <meta name="author" content="Martin Mativo">
 
-    <title>NoKey</title>
+    <title>Siri Pass</title>
 
     <link rel="stylesheet" href="/lib/theme.min.css">
     <style>
       body {
-        background: rgb(255,241,222);
+        background: rgb(248, 249, 250);
       }
       p {
         max-width: 720px;
@@ -25,11 +25,11 @@
   <body>
     <div class="container">
       <div class="page-header">
-        <img src="/imgs/logo.svg" style="width: 100%;max-width: 500px;" alt="NoKey logo" />
+        <img src="/imgs/siri-pass-high-resolution-logo-transparent.png" style="width: 100%;max-width: 500px;" alt="Siri Pass logo" />
       </div>
       <%= render @view_module, @view_template, assigns %>
       <footer class="footer">
-        <%# <a href="https://github.com/Zinggi/NoKey">GitHub</a> %>
+        <%# %>
       </footer>
     </div>
   </body>

@@ -1,12 +1,10 @@
 <p class="lead">
-  NoKey is a distributed password manager that works without a master password.
+  Siri Pass is a distributed password manager that works without a master password.
 </p>
 <p class="lead">
   Instead, you can unlock your passwords by confirming from another device.
   E.g. if you need a password on your PC, you only have to confirm this on your phone.
   No need to remember any passwords!
+  <br>
+<a href="http://127.0.0.1:4000/main.html#/"> Get started</a>
 </p>
-<p class="lead">
-  Download and more at: <a href="https://github.com/Zinggi/NoKey/">github.com/Zinggi/NoKey/</a>.
-</p>
-

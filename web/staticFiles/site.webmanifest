@@ -15,8 +15,8 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#fff1de",
-    "background_color": "#fff1de",
+    "theme_color": "#f8f9fa",
+    "background_color": "#f8f9fa",
     "display": "standalone",
     "TODO: prefer_related_applications": true,
     "TODO: related_applications": [

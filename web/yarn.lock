@@ -1981,9 +1981,9 @@ elliptic@^6.5.3, elliptic@^6.5.4:
     minimalistic-assert "^1.0.1"
     minimalistic-crypto-utils "^1.0.1"
 
-"elm-webpack-loader@git://github.com/CareerPlug/elm-webpack-loader.git#v4.5.1":
+"elm-webpack-loader@https://github.com/CareerPlug/elm-webpack-loader.git#v4.5.1":
   version "4.5.0"
-  resolved "git://github.com/CareerPlug/elm-webpack-loader.git#d484194781360f76edddf795199327bdbadc2e70"
+  resolved "https://github.com/CareerPlug/elm-webpack-loader.git#d484194781360f76edddf795199327bdbadc2e70"
   dependencies:
     elm latest-0.18.0
     glob "^7.1.1"

@@ -106,7 +106,7 @@ viewTutorial =
     Elements.card 1
         []
         [ Elements.h3 "Welcome!"
-        , Elements.p "It seems like this is the first time you're using NoKey. Do you want to view a short tutorial?"
+        , Elements.p "It seems like this is the first time you're using Siri Pass. Do you want to view a short tutorial?"
         , row []
             [ Elements.primaryButton (Just (NavigateTo Tutorial)) "Show Tutorial"
             , Elements.button (Just DoneWithTutorial) "No, I've used it before"

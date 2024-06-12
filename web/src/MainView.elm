@@ -134,7 +134,7 @@ viewTitle connectedToServer page toasties =
                     , ( "cursor", "pointer" )
                     , ( "box-shadow", "0 5px 5px -5px rgba(0, 0, 0, 0.5)" )
                     , ( "color", "white" )
-                    , ( "background", "#1998C2" )
+                    , ( "background", "#003366" ) -- #003366 (new) -> #1998C2 (orig)
                     , ( "font-size", "13px" )
                     ]
                 ]
