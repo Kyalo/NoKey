@@ -92,7 +92,7 @@ viewEntry config sync ( minSecLevel, numberOfAvailableDevices ) n ( secLevel, sh
                         )
                         "Save"
                     , Elements.button (Just (config.onDismiss n.id)) "Forget"
-                    , Elements.button (Just (config.onDeactivateForSite n.id entry.site)) "Deactivate NoKey for this site"
+                    , Elements.button (Just (config.onDeactivateForSite n.id entry.site)) "Deactivate Siri Pass for this site"
                     ]
                 ]
         )

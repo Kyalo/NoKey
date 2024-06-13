@@ -30,7 +30,7 @@ shadowColor =
 
 
 backgroundColor =
-    Color.rgb 255 241 222
+    Color.rgb 248 249 250
 
 
 altBackgroundColor =
@@ -70,7 +70,7 @@ foregroundColor =
 
 
 accentColor =
-    Color.rgb 25 152 194
+    Color.rgb 0 51 102
 
 
 textColor =

@@ -1,33 +1,21 @@
 {
-    "name": "NoKey",
-    "short_name": "NoKey",
+    "name": "Siri Pass",
+    "short_name": "Siri Pass",
     "description": "A distributed password manager without a master password.",
     "start_url": "/main.html?utm_source=homescreen",
     "icons": [
         {
-            "src": "/android-chrome-192x192.png",
+            "src": "/siri-pass-favicon-color.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-512x512.png",
+            "src": "/siri-pass-favicon-color.png",
             "sizes": "512x512",
             "type": "image/png"
         }
     ],
     "theme_color": "#f8f9fa",
     "background_color": "#f8f9fa",
-    "display": "standalone",
-    "TODO: prefer_related_applications": true,
-    "TODO: related_applications": [
-        {
-            "platform": "play",
-            "url": "https://play.google.com/store/apps/details?id=com.example.app1",
-            "id": "com.example.app1"
-        },
-        {
-            "platform": "itunes",
-            "url": "https://itunes.apple.com/app/example-app1/id123456789"
-        }
-    ]
+    "display": "standalone"
 }

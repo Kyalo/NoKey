@@ -10,7 +10,7 @@
     position: fixed;
     z-index: 1000;
     top: 0px;
-    background: rgb(25, 152, 194);
+    background: rgb(0, 51, 102);
     color: white;
     width: calc(100% - 20px);
     padding: 10px;
@@ -142,14 +142,14 @@ input[type='range']::-moz-range-track {
 }
 input[type='range']::-webkit-slider-thumb {
     -webkit-appearance: none !important;
-    background: rgb(25, 152, 194);
+    background: rgb(0, 51, 102);
     height: 14px;
     width: 14px;
     border-radius: 7px;
 }
 input[type='range']::-moz-range-thumb {
     -moz-appearance: none !important;
-    background: rgb(25, 152, 194);
+    background: rgb(0, 51, 102);
     height: 14px;
     width: 14px;
     border-radius: 7px;

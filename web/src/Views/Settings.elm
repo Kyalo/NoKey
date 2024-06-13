@@ -96,7 +96,7 @@ view config { syncData } state =
                 none
               else
                 col
-                    [ Elements.b "Deactivate NoKey for"
+                    [ Elements.b "Deactivate Siri Pass for"
                     , Elements.button (Just (config.onShowDeactivatedSites)) "Edit sites"
                     , Elements.line
                     ]
@@ -158,7 +158,7 @@ viewIgnoredSites config { syncData } =
                 |> Set.toList
     in
         column [ spacing (Styles.paddingScale 3) ]
-            [ Elements.b "NoKey is deactivated for these sites:"
+            [ Elements.b "Siri Pass is deactivated for these sites:"
             , column [ spacing (Styles.paddingScale 3) ]
                 (List.map
                     (\site ->

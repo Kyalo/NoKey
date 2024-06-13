@@ -96,7 +96,7 @@ setup(Elm.MainBackground.fullscreen, (app) => {
         if (count > 0) {
             browser.browserAction.setBadgeText({text: ""+count});
             // this is the tooltip
-            browser.browserAction.setTitle({title: "NoKey: User interaction required"});
+            browser.browserAction.setTitle({title: "Siri Pass: User interaction required"});
 
             if (state.hasPopupOpen || count <= state.previousNotificationsCount ) {
                 state.previousNotificationsCount = count;
@@ -107,7 +107,7 @@ setup(Elm.MainBackground.fullscreen, (app) => {
             }
         } else {
             browser.browserAction.setBadgeText({text: ""});
-            browser.browserAction.setTitle({title: "NoKey"});
+            browser.browserAction.setTitle({title: "Siri Pass"});
         }
         state.previousNotificationsCount = count;
     });

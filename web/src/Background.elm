@@ -604,13 +604,13 @@ setTitle sync =
     in
         Ports.setTitle
             (if name == "" && post == "" then
-                "NoKey"
+                "Siri Pass"
              else if name == "" && post /= "" then
-                "NoKey (" ++ post ++ ")"
+                "Siri Pass (" ++ post ++ ")"
              else if name /= "" && post == "" then
-                "NoKey (" ++ name ++ ")"
+                "Siri Pass (" ++ name ++ ")"
              else
-                "NoKey (" ++ name ++ " (" ++ post ++ "))"
+                "Siri Pass (" ++ name ++ " (" ++ post ++ "))"
             )
 
 

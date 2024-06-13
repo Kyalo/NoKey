@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "NoKey",
+  "name": "Siri Pass",
   "description": "A distributed password manager without a master passwords",
   "version": "0.4.1",
   "author": "Florian Zinggeler",
@@ -31,7 +31,7 @@
         "64": "icons/logo-64.png",
         "128": "icons/logo-128.png"
     },
-    "default_title": "NoKey",
+    "default_title": "Siri Pass",
     "default_popup": "popup/main.html"
   },
 
